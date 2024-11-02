@@ -13,10 +13,10 @@ User Controls:
 I can use W, S, A, D, Q keys to move up, down, left, right, and Quit respectively.
 
 **Game Rules:**
-When I press a key, numbers in the grid shift in the chosen direction:
-If two adjacent numbers in a row (for horizontal moves) or column (for vertical moves) are the same, they combine into their sum.
-After combining, the resulting number fills one cell, while the other becomes empty.
-If no numbers can combine, all numbers still shift in the chosen direction, filling the empty spaces.
+When I press a key, numbers in the grid shift in the chosen direction: 
+If two adjacent numbers in a row (for horizontal moves) or column (for vertical moves) are the same, they combine into their sum. 
+After combining, the resulting number fills one cell, while the other becomes empty. 
+If no numbers can combine, all numbers still shift in the chosen direction, filling the empty spaces. 
 If I reach 2048 in any cell, I win! If there are no moves left, the game ends, allowing me to restart or quit.
 
 **Exception Handling:**
